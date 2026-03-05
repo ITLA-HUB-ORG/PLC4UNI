@@ -1720,6 +1720,114 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MG_ELECTROMECANICAL:TestPoint_Hole1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Hole1"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Hole1_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Hole1_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3362,6 +3470,12 @@
 		(uuid "04023157-d9c4-4dff-9ca1-441f13b67138")
 	)
 	(junction
+		(at 64.77 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fd66b0-d8d8-4637-8552-628d2334b82e")
+	)
+	(junction
 		(at 63.5 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3372,6 +3486,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4672070b-c759-4e09-b5e3-d5a3c0bcbe9e")
+	)
+	(junction
+		(at 68.58 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c68dd3-7514-4155-9853-22dbbe8b4ca1")
 	)
 	(junction
 		(at 39.37 85.09)
@@ -3398,6 +3518,12 @@
 		(uuid "7e8e00a6-7406-4ad1-a555-03b400659670")
 	)
 	(junction
+		(at 63.5 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a258e4-044d-4b65-8119-5c4df1ed8f74")
+	)
+	(junction
 		(at 107.95 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3408,6 +3534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d57a58a-c263-4ca5-a0a7-c526b047536a")
+	)
+	(junction
+		(at 64.77 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a91fc1c3-7a69-44b1-9794-254ce6aee9b2")
 	)
 	(junction
 		(at 49.53 175.26)
@@ -3753,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 59.69 41.91)
+			(xy 71.12 41.91) (xy 64.77 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3773,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 49.53) (xy 73.66 49.53)
+			(xy 59.69 49.53) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3850,6 +3982,16 @@
 			(type default)
 		)
 		(uuid "2aea205a-1b43-4df8-a1af-518745c7a54e")
+	)
+	(wire
+		(pts
+			(xy 64.77 39.37) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c039ffb-84d7-4225-b188-690ad01cbf38")
 	)
 	(wire
 		(pts
@@ -4213,6 +4355,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 49.53) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbc2ce4-facf-419b-b276-a1a1d24ae634")
+	)
+	(wire
+		(pts
 			(xy 162.56 180.34) (xy 166.37 180.34)
 		)
 		(stroke
@@ -4250,6 +4402,26 @@
 			(type default)
 		)
 		(uuid "65a715f4-0f7c-481d-a922-108661fca0c2")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c8d741-e8ab-4f26-bcce-117bd04c756e")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e7dde5-74b1-44e0-8e6f-29b410b5bafc")
 	)
 	(wire
 		(pts
@@ -4300,6 +4472,16 @@
 			(type default)
 		)
 		(uuid "6b125cc4-3165-4c0c-b306-17d0d9cea85a")
+	)
+	(wire
+		(pts
+			(xy 68.58 19.05) (xy 68.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0d95de-afbd-4538-9b41-8498a2c8e645")
 	)
 	(wire
 		(pts
@@ -4453,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 21.59) (xy 73.66 21.59)
+			(xy 59.69 21.59) (xy 68.58 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4570,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "89d4b9d9-17c4-44ea-aa29-401da59793c1")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 59.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abac432-66e7-4625-91e5-929b363d72f5")
 	)
 	(wire
 		(pts
@@ -4690,6 +4882,16 @@
 			(type default)
 		)
 		(uuid "9c7c7364-b66a-48db-af4e-0be890af3866")
+	)
+	(wire
+		(pts
+			(xy 68.58 21.59) (xy 73.66 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f12121a-8502-4c26-ab79-bc5e387970d2")
 	)
 	(wire
 		(pts
@@ -4833,7 +5035,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 31.75) (xy 71.12 31.75)
+			(xy 59.69 31.75) (xy 64.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5060,6 +5262,16 @@
 			(type default)
 		)
 		(uuid "d53cefd9-483b-4aff-9d87-397a901ea465")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55aeceb-c4be-463f-bbb6-67437c086bbe")
 	)
 	(wire
 		(pts
@@ -6488,10 +6700,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09e77a8d-a614-4448-8828-2d45e741ab34")
 		(property "Reference" "J1"
-			(at 156.21 163.83 0)
+			(at 156.21 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,6 +7311,73 @@
 		)
 	)
 	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 63.5 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339f8ddc-1f11-4a49-9b86-146ad4351aeb")
+		(property "Reference" "TP4"
+			(at 66.04 44.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eca1703-03e2-45d5-8cdf-07c266803086")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 49.53 162.56 0)
 		(unit 1)
@@ -7291,6 +7569,73 @@
 			(project "PLC4UNI-GC1"
 				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 64.77 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5f99e0-564e-417b-b1e6-9e4bdd6b6ffb")
+		(property "Reference" "TP3"
+			(at 67.31 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f8a5dfd-6d63-4134-8820-0a2908552ff1")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7503,7 +7848,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81376fc6-4143-4adb-8d87-46fc424f2d67")
 		(property "Reference" "#PWR09"
 			(at 147.32 170.18 0)
@@ -7515,7 +7859,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 161.29 0)
+			(at 147.066 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,6 +8734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 68.58 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd1a3f87-0680-4df8-bb9e-a51b96dbc07c")
+		(property "Reference" "TP1"
+			(at 70.104 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 68.58 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "360e8bd8-412b-402a-a61f-e88d347555b5")
+		)
+		(instances
+			(project ""
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:TS-1088-AR02016")
 		(at 116.84 175.26 0)
 		(unit 1)
@@ -8997,6 +9407,73 @@
 			(project "PLC4UNI-GC1"
 				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 64.77 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde2dedd-3d86-49d7-87dd-7f033d88f2b6")
+		(property "Reference" "TP2"
+			(at 67.31 25.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "416b56f6-d078-4219-8c9d-27ba67261abe")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

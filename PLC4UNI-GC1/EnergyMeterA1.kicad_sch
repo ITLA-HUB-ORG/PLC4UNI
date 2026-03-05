@@ -865,6 +865,114 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MG_ELECTROMECANICAL:TestPoint_Hole1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Hole1"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Hole1_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Hole1_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Resistor_US_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
@@ -2045,6 +2153,12 @@
 		(uuid "c976e317-047f-4a70-91da-eaac1bc850b8")
 	)
 	(junction
+		(at 171.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc4effed-449b-4aba-aa1f-dd7937411853")
+	)
+	(junction
 		(at 96.52 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2251,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "2ce6f7fc-62ec-46e6-9638-39cc06952543")
+	)
+	(wire
+		(pts
+			(xy 171.45 34.29) (xy 171.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d35f26-6d90-4f06-b706-8f40eb17962b")
 	)
 	(wire
 		(pts
@@ -2614,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 36.83) (xy 167.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e415ea-3cc3-40c8-874e-0a63cd4eafd1")
+	)
+	(wire
+		(pts
 			(xy 96.52 115.57) (xy 87.63 115.57)
 		)
 		(stroke
@@ -2904,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 167.64 36.83)
+			(xy 173.99 36.83) (xy 171.45 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5335,73 @@
 			(project "PLC4UNI-GC1"
 				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 171.45 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1441341-3586-434a-a06a-5c662606a3b1")
+		(property "Reference" "TP5"
+			(at 173.99 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 171.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4fb635-1157-45f8-b65d-fdbb484289d1")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
