@@ -2099,6 +2099,18 @@
 		(uuid "1be9d65b-5119-48d0-aa6e-d60c1fe3423e")
 	)
 	(junction
+		(at 91.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231d3971-620f-4d57-bce9-0094e0b4db56")
+	)
+	(junction
+		(at 92.71 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8c2b66-80ea-4605-befe-12a048cc4d02")
+	)
+	(junction
 		(at 158.75 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2608,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 95.25) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eea70c-3821-4e10-9b6c-ee8ef677f096")
+	)
+	(wire
+		(pts
 			(xy 45.72 67.31) (xy 54.61 67.31)
 		)
 		(stroke
@@ -2628,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 72.39 67.31)
+			(xy 100.33 67.31) (xy 92.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2828,6 +2850,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e7acee-804b-4835-a0c8-409544330520")
+	)
+	(wire
+		(pts
 			(xy 81.28 82.55) (xy 81.28 85.09)
 		)
 		(stroke
@@ -2835,6 +2867,16 @@
 			(type default)
 		)
 		(uuid "bafcacce-e0a8-418d-99d4-d02ea9447a6b")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc36dba6-ac77-403e-920c-c6ea79f9a3b9")
 	)
 	(wire
 		(pts
@@ -2885,6 +2927,16 @@
 			(type default)
 		)
 		(uuid "cc7172dc-ac47-4390-a46e-f24f8e59bd1d")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf545dc7-385d-45ca-b90f-588ff940955d")
 	)
 	(wire
 		(pts
@@ -3048,7 +3100,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 72.39 97.79)
+			(xy 92.71 63.5) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7acb906-94c8-4b71-80df-6a91ad25c9c9")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3131,6 +3193,72 @@
 			(justify right)
 		)
 		(uuid "90e54db7-b47a-46aa-928f-5c7d95472abb")
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 87.63 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03986dad-0b73-4f4d-bd9c-fa0c8974d1c5")
+		(property "Reference" "TP9"
+			(at 85.852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fde9e49-44d7-43c4-92a2-306b40acbd4b")
+		)
+		(instances
+			(project ""
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -4458,6 +4586,72 @@
 			(project "PLC4UNI-GC1"
 				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 92.71 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "732ec511-b32d-44cb-8176-0a73b9425d93")
+		(property "Reference" "TP10"
+			(at 90.932 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cbc1fd9-a027-4d27-8c9b-817dd2ecce08")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5892,6 +6086,72 @@
 			(project "PLC4UNI-GC1"
 				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MG_ELECTROMECANICAL:TestPoint_Hole1")
+		(at 91.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d89529cf-7865-452f-9231-6e724e177f2e")
+		(property "Reference" "TP11"
+			(at 89.662 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Hole1"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_TestPoint:TestPoint_WireHole"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5ce4ae-78a5-4e7e-9e24-64d360922abf")
+		)
+		(instances
+			(project "PLC4UNI-GC1"
+				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798/ca21e56d-4223-44eb-9b60-6c8fe421c362/ca73a3a2-e972-4904-8497-8f601585c9f2"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
